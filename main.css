@@ -1,0 +1,50 @@
+div {
+  height : 800px;
+  display: flex;
+}
+
+#sectionOne {
+  background-color: chartreuse;
+}
+
+#sectionTwo {
+  background-color: pink;
+}
+
+#sectionThree {
+  background-color: brown;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#sectionFour {
+  background-color: turquoise;
+}
+
+img {
+  width : auto;
+  height: 200px;
+}
+
+.caption {
+  font-size: 12px;
+}
+#soup {
+}
+.sandwich{
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hidden {
+  opacity: 0;
+  animation: show forwards 10s;
+
+}
+
+@keyframes show {
+  animation-duration: 600ms;
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
