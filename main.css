@@ -3,8 +3,24 @@ div {
   display: flex;
 }
 
-#sectionOne {
+#one {
   background-color: chartreuse;
+}
+
+#two {
+  background-color: pink;
+}
+
+#three {
+  background-color: brown;
+}
+
+#four {
+  background-color: turquoise;
+}
+
+
+#sectionOne {
   justify-content: space-between;
   align-items: center;
 }
@@ -45,16 +61,7 @@ img {
   opacity: 0;
   animation: hide 1000ms forwards;
 }
-.hidden2{
-  opacity: 0;
-  animation: hide 1000ms forwards;
-}
-.hidden3{
-  opacity: 0;
-}
-.hidden4{
-  opacity: 0;
-}
+
 .showAnimation {
   /* opacity: 0; */
   animation: show 1000ms forwards;
