@@ -41,3 +41,23 @@ window.addEventListener('scroll', function(a){
 });
 
 // Better solution stolen from Kay
+
+// const sectionOne = document.getElementById('one');
+// const sectionTwo = document.getElementById('two');
+// const sectionThree = document.getElementById('three');
+// const sectionFour = document.getElementById('four');
+//
+// function scroll(pixels, section) {
+//   if (window.scrollY > pixels) {
+//     section.className = 'show';
+//   } else {
+//     section.className = 'hide';
+//   }
+// }
+//
+// window.addEventListener('scroll', function() {
+//   scroll(0, sectionOne);
+//   scroll(800, sectionTwo);
+//   scroll(1600, sectionThree);
+//   scroll(2400, sectionFour);
+// });
